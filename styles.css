@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.gigs {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+#link {
+    text-align: center;
+}
+
+#poster {
+    width: 600px;
+    height: 600px;
+}
+
+#band {
+    width: 600px;
+    height: 450px;
+}
+
+.nav {
+    text-align: center;
+}
+
+#header {
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+
+
+#Description {
+    text-align: center;
+    
+}
+
+#content {
+    text-align: center;
+}
