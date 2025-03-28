@@ -1,14 +1,37 @@
 body {
     text-align: center;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
+    color: white;
     
 }
 
 .gigs {
+    text-align: center;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 200px;
     
+}
+
+.button {
+    background-color: black; /* Green background */
+    color: white; /* White text */
+    border: 2px solid white;
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for proper spacing */
+    font-size: 16px; /* Adjust font size */
+    margin: 5px 2px; /* Add margin between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: white; /* Darker green on hover */
+    border-color: #ffffff; /* Change border color on hover */
+    color: black;
 }
 
 #link {
@@ -25,25 +48,15 @@ body {
     height: 450px;
 }
 
-.nav {
-    text-align: center;
-}
 
 #header {
     color: white;
-    font-variant: small-caps;
-    text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     
 }
 
-
-
-#Description {
-    text-align: center;
-    
-}
-
-#content {
-    text-align: center;
+.credits {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
